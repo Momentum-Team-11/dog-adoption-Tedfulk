@@ -92,8 +92,6 @@ body {
 
 .footer1 {
   display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100%;
 }
@@ -101,9 +99,9 @@ body {
 .back-img1,
 .back-img2,
 .back-img3 {
-  box-sizing: border-box;
   width: 300px;
   height: 214px;
+  object-fit: contain;
 }
 
 .back-img1 {
@@ -139,6 +137,7 @@ body {
 
 h3 {
   color: white;
+  padding-top: 1.5rem;
   font-size: 2.5rem;
   font-family: "Open Sans";
   display: flex;
