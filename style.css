@@ -113,7 +113,7 @@ body {
     ),
     url(./starter_files/images/donate2.jpg);
   width: 100%;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 .back-img2 {
@@ -123,7 +123,7 @@ body {
     ),
     url(./starter_files/images/volunteer.jpeg);
   width: 100%;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 .back-img3 {
@@ -133,7 +133,7 @@ body {
     ),
     url(./starter_files/images/location.png);
   width: 100%;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
