@@ -1,0 +1,148 @@
+header {
+  background-color: #004175;
+  border-bottom: solid #89deef;
+  margin-top: -21px;
+  margin-right: -10px;
+}
+h1 {
+  color: white;
+  padding-left: 30px;
+  padding-top: 1.5%;
+  padding-bottom: 0.1%;
+  font-family: "Open Sans";
+  justify-content: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+h4 {
+  font-family: "Oswald";
+  margin: 0px;
+}
+p {
+  font-size: 14px;
+}
+
+.imag img {
+  width: 4000px;
+  object-fit: scale-down;
+  max-width: 100%;
+  height: auto;
+  border: 5px;
+}
+
+.row1 .imag {
+  margin: 0.5rem;
+  margin-left: 0rem;
+}
+
+.row2 .imag {
+  margin: 0.5rem;
+  margin-left: 0rem;
+}
+
+.row3 .imag {
+  margin: 0.5rem;
+  margin-left: 0rem;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  box-sizing: border-box;
+  margin-bottom: 2%;
+  margin-right: 2rem;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  box-sizing: border-box;
+  margin-bottom: 2%;
+  margin-right: 2rem;
+}
+
+.row3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  box-sizing: border-box;
+  margin-bottom: 2%;
+  margin-right: 2rem;
+}
+
+li {
+  display: inline;
+  background-color: #89deef;
+  font-size: 12px;
+  border-radius: 20%;
+}
+
+div.section2 {
+  padding-left: 30px;
+  justify-content: center;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+.footer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.back-img1,
+.back-img2,
+.back-img3 {
+  box-sizing: border-box;
+  width: 300px;
+  height: 214px;
+}
+
+.back-img1 {
+  background: linear-gradient(
+      rgba(166, 169, 240, 0.75),
+      rgba(166, 169, 240, 0.75)
+    ),
+    url(./starter_files/images/donate2.jpg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.back-img2 {
+  background: linear-gradient(
+      rgba(166, 169, 240, 0.75),
+      rgba(166, 169, 240, 0.75)
+    ),
+    url(./starter_files/images/volunteer.jpeg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.back-img3 {
+  background: linear-gradient(
+      rgba(166, 169, 240, 0.75),
+      rgba(166, 169, 240, 0.75)
+    ),
+    url(./starter_files/images/location.png);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h3 {
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Open Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
